@@ -38,7 +38,7 @@ input, button {
     top:0px;
     opacity: 0.69;
     padding:10px 30px;
-    width: 700px;
+    width: 100%;
     /* padding-right: 960px; */
 }
 .name{
@@ -59,10 +59,12 @@ input, button {
     color: white;
     position: absolute;
     left: 0px;
-    top:320px;
-    padding: 30px 30px;
+    top:336px;
+    padding: 35px 30px;
+    width: 1025px;
     /* padding-right: 819px; */
     overflow: hidden;
+    line-height: 1.05;
 }
 .name3{
     font-size: 55px;
@@ -73,9 +75,14 @@ input, button {
 }
 .list_data{
     list-style-type: square;
-    /* direction: rtl; */
+    padding-right: 70px;
+    direction: rtl;
     font-size: 25px;
     color: white;
+    padding-top: 40px;
+    padding-bottom: 64px;
+    font-weight: 400;
+    width: 469.5px;
 }
 .data{
     background-color: gainsboro;
@@ -88,9 +95,14 @@ input, button {
     background-color: black;
     opacity: 0.69;
     color: white;
+    width: 493.5px;
     position: absolute;
     right: 0px;
-    top:320px;
+    top:330px;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .first{
     color: rgb(227, 48, 48);
