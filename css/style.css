@@ -38,7 +38,8 @@ input, button {
     top:0px;
     opacity: 0.69;
     padding:10px 30px;
-    padding-right: 960px;
+    width: 700px;
+    /* padding-right: 960px; */
 }
 .name{
     font-size: 40px;
@@ -64,15 +65,17 @@ input, button {
     overflow: hidden;
 }
 .name3{
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 900;
 }
 .name4{
-    font-size: 30px;
+    font-size: 35px;
 }
 .list_data{
     list-style-type: square;
     /* direction: rtl; */
+    font-size: 25px;
+    color: white;
 }
 .data{
     background-color: gainsboro;
