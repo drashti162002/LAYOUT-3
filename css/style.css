@@ -108,6 +108,7 @@ input, button {
     background-color: skyblue;
     padding: 50px;
     color: white;
+    display: flex;
 }
 .company_data{
     text-transform: uppercase;
@@ -120,10 +121,31 @@ input, button {
 }
 .second{
     color: skyblue;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 45px;
+    font-weight: 650;
 }
 .end{
     color: gray;
     font-size: 22px;
+    font-weight: 700;
+}
+.image-2{
+    color: white;
+    width: 80px;
+    height: 80px;
+}
+.our_name{
+    color: rgb(227, 48, 48);
+    font-weight: 700;
+}
+.code{
+    color: gray;
+    font-size: 40px;
+}
+.logo_data1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.logo{
+    line-height: 0.90;
 }
