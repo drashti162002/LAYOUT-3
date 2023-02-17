@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+img {
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+}
+a{
+   text-decoration: none;
+}
+ul, ol {
+    margin: 0px;
+    padding: 0px;
+}
+input, button {
+    box-shadow: none;
+    outline: none;
+}
+.image-1{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.main_header{
+    /* position: relative; */
+}
+.header_contant{
+    color: white;
+    background-color: black;
+    position: absolute;
+    left:0px;
+    top:0px;
+    opacity: 0.69;
+    padding:10px 30px;
+    padding-right: 960px;
+}
+.name{
+    font-size: 40px;
+    font-weight: 900;
+}
+.name1{
+    font-size:15px;
+    font-weight: 500;
+}
+.box{
+    height: 10px;
+    width: 28px;
+    background-color: skyblue;
+}
+.learn{
+    background-color: rgba(193, 185, 50, 0.70);
+    color: white;
+    position: absolute;
+    left: 0px;
+    top:320px;
+    padding: 30px 30px;
+    /* padding-right: 819px; */
+    overflow: hidden;
+}
+.name3{
+    font-size: 50px;
+    font-weight: 900;
+}
+.name4{
+    font-size: 30px;
+}
+.list_data{
+    list-style-type: square;
+}
+.data{
+    background-color: gainsboro;
+    padding-left: 25px;
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+.address{
+    background-color: black;
+    opacity: 0.69;
+    color: white;
+    position: absolute;
+    right: 0px;
+    top:320px;
+}
+.first{
+    color: rgb(227, 48, 48);
+    font-size: 50px;
+    font-weight: 900;
+}
+.start{
+    color: gray;
+    font-size: 25px;
+    font-weight: 700;
+}
+.courses{
+    color: rgb(157, 146, 146);
+    font-size: 18px;
+    font-weight: 500;
+}
+.code_data{
+    background-color: skyblue;
+    padding: 50px;
+}
+.company_data{
+    text-transform: uppercase;
+}
