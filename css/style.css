@@ -72,6 +72,7 @@ input, button {
 }
 .list_data{
     list-style-type: square;
+    /* direction: rtl; */
 }
 .data{
     background-color: gainsboro;
@@ -106,7 +107,23 @@ input, button {
 .code_data{
     background-color: skyblue;
     padding: 50px;
+    color: white;
 }
 .company_data{
     text-transform: uppercase;
+}
+.trophy{
+    font-size: 60px;
+}
+.our_company{
+    background-color: gainsboro;
+}
+.second{
+    color: skyblue;
+    font-size: 40px;
+    font-weight: 800;
+}
+.end{
+    color: gray;
+    font-size: 22px;
 }
