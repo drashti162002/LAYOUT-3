@@ -22,23 +22,19 @@ input, button {
     box-shadow: none;
     outline: none;
 }
-.image-1{
+/* first section part css */
+.main_section{
+    background-image: url('../image/img1.jpeg');
     width: 100%;
     height: 500px;
-    position: relative;
-}
-.main_header{
-    /* position: relative; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header_contant{
     color: white;
     background-color: rgba(0, 0, 0, 0.456);
-    position: absolute;
-    left:0px;
-    top:0px;
     padding:10px 30px;
-    width: 1029px;
-    /* padding-right: 960px; */
+    /* width: 1029px; */
 }
 .name{
     font-size: 40px;
@@ -53,15 +49,28 @@ input, button {
     width: 28px;
     background-color: skyblue;
 }
+.list_data{
+    list-style-type: square;
+    padding-right: 70px;
+    direction: rtl;
+    font-size: 26px;
+    color: white;
+    padding-top: 41px;
+    padding-bottom: 60px;
+    font-weight: 430;
+    /* width: 465.5px; */
+}
+.data{
+    background-color: rgba(112, 107, 107, 0.248);
+    padding-left: 25px;
+}
 .learn{
     color: white;
     background-color: rgba(231, 209, 15, 0.7);
-    position: absolute;
-    left: 0px;
-    top:335.5px;
+    /* left: 0px;
+    top:335.5px; */
     padding: 35px 30px;
-    width: 1029px;
-    /* padding-right: 819px; */
+    /* width: 1029px; */
     overflow: hidden;
     line-height: 1.05;
 }
@@ -72,35 +81,22 @@ input, button {
 .name4{
     font-size: 35px;
 }
-.list_data{
-    list-style-type: square;
-    padding-right: 70px;
-    direction: rtl;
-    font-size: 26px;
-    color: white;
-    padding-top: 41px;
-    padding-bottom: 60px;
-    font-weight: 430;
-    width: 465.5px;
-}
-.data{
-    background-color: rgba(112, 107, 107, 0.248);
-    padding-left: 25px;
-    position: absolute;
-    right: 0px;
-    top:0px;
-}
 .address{
     color: white;
     background-color: rgba(0, 0, 0, 0.456);
-    width: 490.5px;
-    position: absolute;
+    /* width: 490.5px;
     right: 0px;
-    top:335px;
+    top:335px; */
     text-align: right;
     padding-right: 50px;
     padding-top: 22px;
     padding-bottom: 22px;
+}
+/* second section part css */
+.first_data{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 50px;
 }
 .first{
     color: rgb(227, 48, 48);
@@ -124,33 +120,17 @@ input, button {
     color: white;
     display: flex;
 }
-.company_data{
-    text-transform: uppercase;
-    padding-bottom: 30px;
-}
-.trophy{
-    font-size: 60px;
-}
-.our_company{
-    background-color: gainsboro;
-    margin-right: -24px;
-    padding-left: 50px;
-    padding-right: 80px;
-}
-.second{
-    color: skyblue;
-    font-size: 45px;
-    font-weight: 650;
-}
-.end{
-    color: gray;
-    font-size: 22px;
-    font-weight: 700;
-}
 .image-2{
     color: white;
     width: 80px;
     height: 80px;
+}
+.logo{
+    line-height: 0.90;
+}
+.logo_data1{
+    font-size: 20px;
+    font-weight: 700;
 }
 .our_name{
     color: rgb(227, 48, 48);
@@ -161,12 +141,41 @@ input, button {
     color: gray;
     font-size: 40px;
 }
-.logo_data1{
-    font-size: 20px;
-    font-weight: 700;
+.company_data1{
+    text-transform: uppercase;
+    padding-bottom: 30px;
 }
-.logo{
-    line-height: 0.90;
+.company_data2{
+    text-transform: uppercase;
+    padding-bottom: 80px;
+}
+.footer_line{
+    border: 5px solid red;
+}
+.our_company{
+    background-color: gainsboro;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+.trophy{
+    font-size: 60px;
+}
+.second{
+    color: skyblue;
+    font-size: 45px;
+    font-weight: 650;
+}
+.end{
+    color: gray;
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.end_1{
+    color: gray;
+    font-size: 22px;
+    font-weight: 700;
+
 }
 .first_data{
     padding-top: 10px;
@@ -175,8 +184,10 @@ input, button {
 }
 .second_data{
     padding-top:40px;
-    /* text-align: right; */
+    text-align: right;
+    line-height: 1.27;
 }
 .end_data{
     text-transform: uppercase;
+    padding-top: 10px;
 }
