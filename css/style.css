@@ -32,13 +32,12 @@ input, button {
 }
 .header_contant{
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.456);
     position: absolute;
     left:0px;
     top:0px;
-    opacity: 0.69;
     padding:10px 30px;
-    width: 100%;
+    width: 1029px;
     /* padding-right: 960px; */
 }
 .name{
@@ -55,13 +54,13 @@ input, button {
     background-color: skyblue;
 }
 .learn{
-    background-color: rgba(193, 185, 50, 0.70);
     color: white;
+    background-color: rgba(231, 209, 15, 0.7);
     position: absolute;
     left: 0px;
     top:335.5px;
     padding: 35px 30px;
-    width: 1025px;
+    width: 1029px;
     /* padding-right: 819px; */
     overflow: hidden;
     line-height: 1.05;
@@ -82,20 +81,19 @@ input, button {
     padding-top: 41px;
     padding-bottom: 60px;
     font-weight: 430;
-    width: 469.5px;
+    width: 465.5px;
 }
 .data{
-    background-color: gainsboro;
+    background-color: rgba(112, 107, 107, 0.248);
     padding-left: 25px;
     position: absolute;
     right: 0px;
     top:0px;
 }
 .address{
-    background-color: black;
-    opacity: 0.69;
     color: white;
-    width: 493.5px;
+    background-color: rgba(0, 0, 0, 0.456);
+    width: 490.5px;
     position: absolute;
     right: 0px;
     top:335px;
@@ -122,7 +120,7 @@ input, button {
 }
 .code_data{
     background-color: skyblue;
-    padding: 50px;
+    padding: 52.5px;
     color: white;
     display: flex;
 }
