@@ -33,8 +33,9 @@ input, button {
 .header_contant{
     color: white;
     background-color: rgba(0, 0, 0, 0.456);
-    padding:10px 30px;
-    /* width: 1029px; */
+    padding-top:10px;
+    padding-bottom: 15px;
+    padding-left: 50px;
 }
 .name{
     font-size: 40px;
@@ -58,19 +59,16 @@ input, button {
     padding-top: 41px;
     padding-bottom: 60px;
     font-weight: 430;
-    /* width: 465.5px; */
 }
 .data{
     background-color: rgba(112, 107, 107, 0.248);
-    padding-left: 25px;
 }
 .learn{
     color: white;
     background-color: rgba(231, 209, 15, 0.7);
-    /* left: 0px;
-    top:335.5px; */
-    padding: 35px 30px;
-    /* width: 1029px; */
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
     overflow: hidden;
     line-height: 1.05;
 }
@@ -84,9 +82,6 @@ input, button {
 .address{
     color: white;
     background-color: rgba(0, 0, 0, 0.456);
-    /* width: 490.5px;
-    right: 0px;
-    top:335px; */
     text-align: right;
     padding-right: 50px;
     padding-top: 22px;
@@ -121,16 +116,22 @@ input, button {
     display: flex;
 }
 .image-2{
-    color: white;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height:100px;
+}
+.logo_image{
+    padding-left: 50px;
 }
 .logo{
     line-height: 0.90;
+    padding-top: 50px;
 }
 .logo_data1{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
+}
+.logo_data2{
+    color:beige ;
 }
 .our_name{
     color: rgb(227, 48, 48);
@@ -144,10 +145,12 @@ input, button {
 .company_data1{
     text-transform: uppercase;
     padding-bottom: 30px;
+    text-align: justify;
 }
 .company_data2{
     text-transform: uppercase;
     padding-bottom: 80px;
+    text-align: justify;
 }
 .footer_line{
     border: 5px solid red;
@@ -186,6 +189,8 @@ input, button {
     padding-top:40px;
     text-align: right;
     line-height: 1.27;
+    padding-right: 40px;
+    padding-left: 150px;
 }
 .end_data{
     text-transform: uppercase;
